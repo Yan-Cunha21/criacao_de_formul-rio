@@ -1,0 +1,104 @@
+.cabeca{
+    text-align: center;
+    background-color:  #008584 ;
+    color: white;
+    border:   #008584 solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    
+}
+.caixa_form{
+    width: 50%;
+    margin: auto;
+    border: 2px solid #070c1f;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5 ;
+}
+
+#nome{
+    border-radius: 10px;
+    padding: 4px;
+    width: 50%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#data_nasc{
+    border-radius: 10px;
+    padding: 4px;
+    width: 15%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#email{
+    border-radius: 10px;
+    padding: 4px;
+    width: 50%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#telefone{
+    border-radius: 10px;
+    padding: 4px;
+    width: 30%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#mensagem{
+    width: 90%;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    
+}
+
+.button{
+    background-color:#008584;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform .1s ease;
+}
+
+.button:hover{
+    background-color:#006666;
+}
+
+.button:active{
+    transform: scale(0.9);
+}
+
+.rodape{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding: 10px;
+    color: #ffffff;
+    background-color:  #008584;
+    border-top: #008584 solid 2px;
+    border-radius: 5px;
+}
+
+body{
+    background-color:  #cccccc ;
+}
+
